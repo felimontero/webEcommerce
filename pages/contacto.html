@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="../pages/index.html"><img class="imgpanda" src="../images/pandalog.jpg" alt="Logo"></a>
+        <h1>PANDA STORE</h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+                <li><a href="facturacion.html"><img src="../images/icons8-factura-50.png" alt="Facturacion"></a></li>
+                <a href="#" id="close"><img src="../images/botoncerrar.png" alt="Boton Cerrar"></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <img id="bar" src="../images/menuhamburguesa.png" alt="Menu Hamburguesa">
+        </div>
+    </header>
+
+
+    <section id="formulario-details">
+        <form id="form">
+            <h3>Dejanos tu mensaje</h2>
+                <span>Preguntanos lo que necesites.</span>
+                <div class="text_captcha">
+                    <p id="textCaptcha"></p>
+                </div>
+                <div id="captcha">
+                    <input type="text" id="write_captcha" placeholder="Escriba el Captcha" value="" required>
+                    <input type="button" value="VALIDATE" id="btn-captcha">
+                    <input type="button" value="REGENERATE" id="btn-regenerate">
+                    <p id="captcha_result"></p>
+                </div>
+                <div class="data" >
+                    <input class="texto" name="name" type="name" placeholder="Tu nombre" required>
+                    <input class="texto" name="email" type="email" placeholder="E-mail" required>
+                    <input class="texto" name="number" type="number" placeholder="Telefono" required>
+                    <textarea class="texto" name="message" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+                    <button class="normal">Enviar</button>
+                </div>
+        </form>
+        <a href="#"><img class="aesthetic" src="../images//newsletter.webp" alt="Imagen estetica"></a>
+    </section>
+
+    <section id="noticias" class="section-p1 section-m1">
+        <div class="noticiastexto">
+            <h4>Registrate para recibir noticias</h4>
+            <p> Dejanos tu email y te enviaremos todo sobre los nuevos ingresos <span>y las ofertas del momento.</span>
+            </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Tu direccion de correo electronico">
+            <button class="normal">Registrate</button>
+        </div>
+    </section>
+
+    <section id="contacto-details" class="section-p1">
+        <div class="details">
+            <h2>Como contactarnos</h2>
+            <div>
+                <li>
+                    <img src="../images/direccion.png" alt="Direccion">
+                    <p>Direccion: 9 de julio 385, Tandil</p>
+                </li>
+                <li>
+                    <img src="../images/telefono.png" alt="Telefono">
+                    <p>Telefono: 2494303030</p>
+                </li>
+                <li>
+                    <img src="../images//gmail.png" alt="Email">
+                    <p>pandastore@gmail.com</p>
+                </li>
+                <li>
+                    <img src="../images/reloj.png" alt="Reloj">
+                    <p>Horario De Atencion: Lunes a Viernes de 10 a 18</p>
+                </li>
+            </div>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.59320252885!2d-59.13595162314662!3d-37.328462606460214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911f967cd6895f%3A0xbd309ae8c1657f39!2s9%20de%20Julio%20385%2C%20Tandil%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1682337711368!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="col">
+            <h4>Contacto</h4>
+            <p>Direccion: 9 de julio 385, Tandil</p>
+            <p>Telefono: 2494303030</p>
+            <p>Horario De Atencion: Lunes a Viernes de 10 a 18</p>
+            <div class="seguinos">
+                <h4>Seguinos en nuestras redes</h4>
+                <div class="iconos">
+                    <img src="../images/facebook.png" alt="Facebook">
+                    <img src="../images/instagram.png" alt="Instagram">
+                    <img src="../images/whatsapp.png" alt="Whatsapp">
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Informacion importante</h4>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Politicas de Devolucion</a>
+            <a href="#">Envios</a>
+            <a href="#">Contactanos</a>
+            <a href="#"> Medios de Pago:</a>
+            <img class="pago" src="../images/visa.png" alt="Tarjeta Visa">
+            <img class="pago" src="../images/mercadoPago.png" alt="Mercado Pago">
+        </div>
+
+        <div class="col">
+            <h4>Cuenta en Panda</h4>
+            <a href="#">Ingresa</a>
+            <a href="#">Registrate</a>
+            <a href="#">Carrito de compras</a>
+        </div>
+    </footer>
+
+    <script src="../js/contact.js"></script>
+    <script src="../js/general.js"></script>
+</body>
+
+</html>

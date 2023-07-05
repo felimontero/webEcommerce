@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<htmlm lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Factura</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+        <header id="header">
+            <a href="../pages/index.html"><img class="imgpanda" src="../images/pandalog.jpg" alt="Logo"></a>
+            <h1>PANDA STORE</h1>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a class="active" href="facturacion.html"><img src="../images/icons8-factura-50.png" alt="Facturacion"></a></li>
+                    <a href="#" id="close"><img src="../images/botoncerrar.png" alt="Boton Cerrar"></a>
+                </ul>
+            </div>
+            <div id="mobile">
+                <img id="bar" src="../images/menuhamburguesa.png" alt="Menu Hamburguesa">
+            </div>
+        </header>
+
+        <section id="hero">
+            <h2>Ofertas en todos los productos de invierno, ahorra hasta un 35%</h2>
+            <a href="../pages/productos.html"> <button>Comprar ahora</button></a>
+        </section>
+
+        <form id="facturacion">
+            <div class="data">
+                <label for="cliente">Nombre y apellido</label>
+                <input id="cliente" name="cliente" type="text">
+
+                <label for="cuit">CUIT</label>
+                <input id="cuit" name="cuit" type="number">
+
+                <label for="nrofactura">Número de factura</label>
+                <input id="nrofactura" name="nrofactura" type="number">
+
+                <label for="tipoFactura">Tipo de factura</label>
+                <select id="tipoFactura" name="tipoFactura">
+                    <option value="Factura A">Factura A</option>
+                    <option value="Consumidor final">Consumidor final</option>
+                </select>
+
+                <label for="valor">Valor total ($)</label>
+                <input id="valor" name="valor" type="number">
+                <div class="btn-container">
+                <button id="facturar" class="btn-tabla" type="submit">Crear factura</button>  
+                <button id="generarElementos" class="btn-tabla" type="button">Agregar 3 items</button>
+                <button id="eliminarUltimaFila" class="btn-tabla" type="button">Eliminar ultima fila</button>
+                <button id="vaciarTabla" class="btn-tabla" type="button">Vaciar tabla</button>
+                </div>
+            </div>
+        </form>
+
+        <table id="tablaFacturas">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>CUIT</th>
+                    <th>Número de factura</th>
+                    <th>Tipo de factura</th>
+                    <th>Valor total ($)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <footer>
+            <div class="col">
+                <h4>Contacto</h4>
+                <p>Direccion: 9 de julio 385, Tandil</p>
+                <p>Telefono: 2494303030</p>
+                <p>Horario De Atencion: Lunes a Viernes de 10 a 18</p>
+                <div class="seguinos">
+                    <h4>Seguinos en nuestras redes</h4>
+                    <div class="iconos">
+                        <img src="../images/facebook.png" alt="Facebook">
+                        <img src="../images/instagram.png" alt="Instagram">
+                        <img src="../images/whatsapp.png" alt="Whatsapp">
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col">
+                <h4>Informacion importante</h4>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Politicas de Devolucion</a>
+                <a href="#">Envios</a>
+                <a href="#">Contactanos</a>
+                <a href="#"> Medios de Pago:</a>
+                <img class="pago" src="../images/visa.png" alt="Tarjeta Visa">
+                <img class="pago" src="../images/mercadoPago.png" alt="Mercado Pago">
+            </div>
+    
+            <div class="col">
+                <h4>Cuenta en Panda</h4>
+                <a href="#">Ingresa</a>
+                <a href="#">Registrate</a>
+                <a href="#">Carrito de compras</a>
+            </div>
+        </footer>
+
+        <script src="../js/facturacion.js"></script>
+        <script src="../js/general.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nombre": "Hoodie Gris Essentials",
+        "precio": 24500,
+        "img": "../images/hoodiegris.avif",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Hoodie Negro Essentials",
+        "precio": 24500,
+        "img": "../images/hoodienegro.avif",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Hoodie Blanco Essentials",
+        "precio": 24500,
+        "img": "../images/hoodieblanco.avif",
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": "Remera Gris Essentials",
+        "precio": 15000,
+        "img": "../images/remeragray.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Remera Negra Essentials",
+        "precio": 15000,
+        "img": "../images/remerablack.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "Remera Blanca Essentials",
+        "precio": 15000,
+        "img": "../images/remerawhite.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Short Gris Essentials",
+        "precio": 17000,
+        "img": "../images/shortgray.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Short Negro Essentials",
+        "precio": 17000,
+        "img": "../images/shortblack.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Short Blanco Essentials",
+        "precio": 17000,
+        "img": "../images/shortwhite.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Zapatillas",
+        "precio": 65000,
+        "img": "../images/zapatillas.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 11,
+        "nombre": "Zapatillas",
+        "precio": 65000,
+        "img": "../images/zapatill.webp",
+        "cantidad": 1
+    },
+    {
+        "id": 12,
+        "nombre": "Zapatillas",
+        "precio": 65000,
+        "img": "../images/zapat.webp",
+        "cantidad": 1
+    }
+]
